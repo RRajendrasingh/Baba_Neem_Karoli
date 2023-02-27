@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <!-- Google tag (gtag.js) -->
+    
+    
+      <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-YRPLWC31JY"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -11,86 +14,186 @@
   gtag('config', 'G-YRPLWC31JY');
 </script>
     
+    
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital Clock</title>
-
-
-
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
-
-        * {
-            font-family: orbitron;
-        }
-body{
-    display: block;
-    position: relative;
-    overflow: hidden;
-    background: #272525;
-}
-.box{
-    border: 2px solid fuchsia;
-    display: flex;
-    justify-content: center;
-}
-
-#timer{
-    width: calc(100vh * 1);
-    border: 2px solid white;
-    font-size: 2rem;
-    color: fuchsia;
-    text-align: center;
-    transition: 0.7s;
-
-}
-#timer:hover{
-    text-shadow: 0px 0px 10px #8D60DE;
-}
-    </style>
-
-
+    <title> Baba_Neem_Karoli</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
+
 <body>
-    <div class="box">
-    <div id="timer">is time:-</div>
-</div>
-</body>
+    <!-- Jai Bajrang Bali -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
-<script>
+    
 
-setInterval(() => {
-
-
-let t = new Date();
-let h = t.getHours();
-let m = t.getMinutes();
-let s = t.getSeconds();
-let session = "AM"
-
-
-
-h = (h < 10) ? "0" + h : h;
-m = (m < 10) ? "0" + m : m;
-s = (s < 10) ? "0" + s : s;
+    <nav>
+        <div id="logo"><img src="logo.jpg" alt="baba" srcset=""><span>Love all, serve all, feed all.</span></div>
+        <div id="navItems">
+            <ul>
+                <li> <a href="">Home</a></li>
+                <li> <a href="images.html">Images</a></li>
+                <li> <a href="about.html">Blog</a></li>
+                <li> <a href="other.html">Other</a></li>
+                <li> <a href="#footerContect">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
 
-if (h > 12) {
-   h = h-12;
-   session = "PM"
-   
-  }
-  let fullTime = `Time is : ${h}:${m}:${s} ${session}`
-
-document.getElementById("timer").innerHTML = fullTime; 
-}, 1000);
+    <section class="sections" id="section1">
+        <div id="ramCap"> RAM RAM</div>
+        <span id="imgBox"> <img src="section1img/1.jpg" alt=""> </span>
+        <span id="imgBox"> <img src="section1img/3.jpg" alt=""> </span>
+        <span id="imgBox"> <img src="section1img/2.jpg" alt=""> </span>
+    </section>
 
 
+    
+    <section class="sections" id="section2">
+        <div>
+            <div class="sec" id="sec2Text">
+                <span>Love all, serve all, feed all.</span>
+                <!-- <p>For a sadhu to stay in one place means trouble. A moving yogi, and a moving river... impurities and
+                    sediments and filth can never settle there. If I stay here, attachment will form.</p> -->
+
+                <p>Lakshman Narayan Sharma was born around 1900 in the village Akbarpur in Firozabad district of Uttar
+                    Pradesh, India, to a wealthy Brahmin family. After being married by his parents at the age of 11, he
+                    left home to become a wandering sadhu. He later returned home, at his father's request, to live a
+                    settled married life. He fathered two sons and a daughter..... <button class="learn-more">
+                        <span class="circle" aria-hidden="true">
+                            <span class="icon arrow"></span>
+                        </span>
+                        <span class="button-text">Learn More</span>
+                    </button> </p>
+            </div>
+            <div class="sec2Img"><img src="sec2Img.png" alt="img" srcset=""></div>
+        </div>
+    </section>
 
 
 
-</script>
 
+
+
+    <section class="sections" id="section3">
+        <div class="container3">
+            <div class="box">
+                <img src="images_icon.png" alt="image1">
+            </div>
+            <div class="box">
+                <img src="images_icon.png" alt="image2">
+            </div>
+            <div class="box">
+                <img src="images_icon.png" alt="image3">
+            </div>
+            <div class="box">
+                <img src="images_icon.png" alt="image4">
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+    <section class="sections" id="section4">
+        <div class="box">
+            <img src="section.jpg" alt="image">
+            <h1>Philosophy</h1>
+            <p>
+                Neem Karoli Baba was a lifelong adept of bhakti yoga, andencouraged service to others (seva) as the
+                highest form ofunconditional devotion to God. In the book Miracle of Love,compiled by Ram Dass, a
+                devotee named Anjani shares thefollowing account:
+            </p> <br>
+
+            <p>There can be no biography of him. Facts are few,stories many. He seems to have been known bydifferent
+                names in many parts of India, appearing anddisappearing through the years. His non-Indiandevotees of
+                recent years knew him as Neem KaroliBaba, but mostly as “Maharajji”. Just as he said, hewas "nobody". He
+                gave no discourses; the briefest,simplest stories were his teachings. Usually, he sat orlay on a wooden
+                bench wrapped in a plaid blanketwhile a few devotees sat around him. Visitors cameand went; they were
+                given food, a few words, a nod, apat on the head or back, and they were sent away.There was gossip and
+                laughter for he loved to joke.Orders for running the ashram were given, usually in apiercing yell across
+                the compound. Sometimes he satin silence, absorbed in another world to which wecould not follow, but
+                bliss and peace poured down onus. Who he was was no more than the experience ofhim, the nectar of his
+                presence, the totality of hisabsence, enveloping us now like his plaid blanket.
+
+                Baba would say that attachment and ego are the greatest hindrances to the realisation of God and that
+                “alearned man and a fool are alike as long as there is attachment and ego in the physical body.” He
+                wouldadvise people to surrender to God's will above everything else so that they might develop love and
+                faith inhim and thereby be free of unnecessary worries in life.
+            </p>
+        </div>
+
+    </section>
+
+
+
+    <section class="sections" id="section5" style="background-color: #fff3e1;">
+    
+    </section>
+    <section class="sections" id="section6"></section>
+
+
+
+
+
+
+
+    <footer>
+        <div>
+            <span class="Heading footerHeading"> "Total truth is necessary. You must live by what you say"</span>
+
+            <!-- <marquee direction="left" ondragstart="">Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram
+                Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram
+                Ram
+                Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram
+                Ram Ram Ram Ram Ram Ram Ram Ram Ram Ram </marquee> -->
+
+        </div>
+
+
+        <div id="footerContect">
+            <span style="font-size: 40px; font-weight: bold; ">Contect Us</span>
+            <p> <span>&#9758</span> Alwar Rajasthan, India</p>
+            <p>&phone; +91-8233529626 <br>
+                <span>&#9758</span> rajendrasinghrathore613@gmail.com
+            </p>
+
+
+        </div>
+
+        <div id="copyright"> &reg; All rights reserved. Copyright Rajendra Singh Rathore &copy; 2023 no part of
+            this website may be copied without permission. </div>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
 
 </html>
