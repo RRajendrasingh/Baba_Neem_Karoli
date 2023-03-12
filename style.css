@@ -205,10 +205,17 @@ nav {
 }
 
 #sec2Text>span {
-    font-size: 60px;
+    font-size: 50px;
     display: flex;
     justify-content: center;
 }
+
+
+#sec2Text>h1{
+    font-size: 30px;
+    /* border: 2px solid; */
+}
+
 
 #sec2Text>p {
     font-size: 30px;
@@ -446,7 +453,7 @@ button:hover .button-text {
     /* width: 800px; */
     margin: 0 auto;
     text-align: center;
-    padding: 20px;
+    padding: 20px 20px 90px 20px;
 }
 
 #section4>.box>img {
@@ -462,16 +469,16 @@ button:hover .button-text {
 }
 
 #section4>.box>p {
-    font-family: Arial, sans-serif;
-    font-size: 18px;
+    /* font-family: Arial, sans-serif; */
+    font-size: 28px;
     line-height: 1.5;
-    color: #333;
+    /* color: #333; */
     text-align: justify;
 }
 
-#section4>.box>h1 {
+#section4>.box>h2 {
     font-family: Arial, sans-serif;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 
@@ -530,7 +537,7 @@ footer {
 }
 
 #footerContect>span {
-    font-size: 40px; 
+    font-size: 35px; 
     font-weight: bold; 
     
 }
@@ -718,6 +725,12 @@ footer {
             height: 220px;
     }
 
+    #sec2Text>h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
 
     nav {
         justify-content: space-evenly;
@@ -743,6 +756,12 @@ footer {
 
     footer{
         height: 250px;
+    }
+
+
+    #section4>.box>p {
+        line-height: normal;
+        font-size: 25px;
     }
 
 
