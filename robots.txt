@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://babaneemkaroli.co.in/sitemap.xml
+Sitemap: https://www.babaneemkaroli.co.in/sitemap.xml
