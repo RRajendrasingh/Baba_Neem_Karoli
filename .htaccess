@@ -1,3 +1,0 @@
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^babaneemkaroli\.co\.in [NC]
-RewriteRule ^(.*)$ https://www.babaneemkaroli.co.in/$1 [L,R=301]
