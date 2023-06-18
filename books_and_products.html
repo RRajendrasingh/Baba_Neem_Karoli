@@ -88,6 +88,8 @@
       transition: background-color 0.3s ease-in-out;
       /* transition: transform 0.3s ease-in-out; */
       font-size: 20px;
+      background-color: #212529;
+      font-size: 20px;
     }
 
     .product button:hover {
@@ -102,6 +104,23 @@
     .product-info strong {
       font-size: 25px;
     }
+
+
+@media only screen and (max-width: 600px) {
+
+  Product {
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+}
+
+.product h3 {
+    font-size: 18px;
+}
+
+
+
+    
   </style>
 </head>
 
