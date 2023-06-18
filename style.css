@@ -831,24 +831,6 @@ footer {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     nav {
         display: flex;
         height: fit-content;
@@ -983,7 +965,15 @@ footer {
 
 
 
+    Product {
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+}
 
+    .product h3 {
+    font-size: 18px;
+}
 
 
 
