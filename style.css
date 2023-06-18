@@ -965,16 +965,20 @@ footer {
 
 
 
-    .product {
-    flex-direction: column;
-    width: 80%;
-    align-items: center;
-}
+     .product {
+        flex-direction: column !important;
+        width: 85% !important;
+        align-items: center !important;
+    }
 
     .product h3 {
-    font-size: 18px;
-}
-
+        font-size: 21px !important;
+    }
+    
+   .product button {
+        margin-top: 15px !important;
+    }
+    
 
 
 
