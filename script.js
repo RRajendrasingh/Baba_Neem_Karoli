@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-
+let fav = document.getElementsByClassName("fav")[1];
+fav.innerHTML = `<img src="om.png" alt=""> babaneemkaroli.blog@gmail.com`
 
 //   document.addEventListener('contextmenu', function (e) {
 //     e.preventDefault();
