@@ -46,6 +46,9 @@ nav {
     align-items: center;
     border-bottom: 2px solid #e1d942;
     /* overflow: hidden; */
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
 }
 
 #logo {
@@ -218,6 +221,7 @@ nav {
     overflow: hidden;
     position: relative;
     padding: 30px;
+    margin-top: 71px;
 }
 
 
@@ -1028,6 +1032,7 @@ footer {
 
     #section1 {
         padding: 25px 10px;
+        margin-top: 85px;
     }
 
     .sec2Img>img {
