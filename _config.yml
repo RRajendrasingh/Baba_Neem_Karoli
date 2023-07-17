@@ -1,0 +1,11 @@
+plugins:
+  - jekyll-redirect-from
+
+redirections:
+  - "/Privacy_Policy.html": "/privacy-policy.html"
+  - "/Terms_and_Conditions.html": "/terms-and-conditions.html"
+  - "/About_Us.html": "/about-us.html"
+  - "/about_baba.html": "/about-baba.html"
+  - "/books_and_products.html": "/books-and-products.html"
+
+permalink: /:name
