@@ -11,11 +11,7 @@ body {
     background-color: #cccccc;
 }
 
-.anchor{
-    text-decoration: underline;
-    font-weight: bold;
-    color: black;
-}
+
 
 #myBtn {
     position: fixed;
@@ -845,7 +841,11 @@ header {
     background-color: #333;
     color: #fff;
   }
-
+.anchor{
+    text-decoration: underline;
+    font-weight: bold;
+    color: black;
+}
   
 
 
